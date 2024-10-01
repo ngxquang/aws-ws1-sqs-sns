@@ -1,69 +1,69 @@
 [
 {
-	"uri": "https://ngxquang.github.io/aws-ws1-sqs-sns/2-difference/2.1-sqs/",
+	"uri": "http://localhost:1313/aws-ws1-sqs-sns/2-difference/2.1-sqs/",
 	"title": "Amazon SQS",
 	"tags": [],
 	"description": "",
 	"content": "1. Producer and Consumer in the Architecture of Amazon SQS Producer refers to applications or systems that produce and send messages into the queue. In SQS, a producer can push an unlimited number of messages into the queue. The strength of the decoupling architecture is that the producer only needs to send messages without worrying about when or how those messages are processed afterward.\nConsumer refers to applications or systems that receive and process messages from the queue. In SQS, the consumer actively pulls messages from the queue within a certain timeframe. The number of messages a consumer can pull at a time depends on the system\u0026rsquo;s polling configuration and can be one or multiple messages.\nIn the illustration, suppose we have three producers sending messages m1, m2, and m3 into the Queue. There are three consumers that pull messages within a certain interval. Each pull can be one or multiple messages. Consumer 1 might pull m1 and m2 at the same time, while consumer 2 might pull m3, and so on.\n2. SQS Helps Solve Async Problems SQS supports an asynchronous model where producers send messages without needing to wait for consumers to process them immediately, allowing system components to operate independently of each other in terms of time.\nThe system only needs to ensure that the messages are sent to the Queue, and consumers will handle them later.\n3. Properties of SQS 3.1 Related to Pull/Poll Messages SQS does not automatically push messages to consumers; instead, consumers must actively poll the queue for messages. This process is known as polling. The consumer will send a request to SQS to retrieve messages, and the queue will return the available messages.\nTypically, in asynchronous architectures, messages produced are processed immediately, but in this architecture, the processing is separated → The architecture related to the Queue in general and SQS in particular is referred to as Decoupling.\n3.2 Types of Queues in SQS When consumers pull messages, they cannot select which messages to retrieve. The messages returned by the Queue depend on the nature of the Queue.\nThere are two types of queues:\nFIFO Queue Standard Queue\n3.3 Persistent Messages in SQS are stored in the queue and are considered persistent until they are successfully processed by a consumer. Messages can be stored in SQS for a maximum of 14 days. If not processed within this timeframe, the messages will be automatically deleted. 3.4 One-to-One Relationship Between Message and Consumer In the SQS architecture, a message can only be processed by a single consumer at any given time. This ensures that each message is processed only once (for FIFO queues or when successfully processed for standard queues). "
 },
 {
-	"uri": "https://ngxquang.github.io/aws-ws1-sqs-sns/",
+	"uri": "http://localhost:1313/aws-ws1-sqs-sns/",
 	"title": "Amazon SQS and Amazon SNS",
 	"tags": [],
 	"description": "",
 	"content": "Comparison of Amazon SQS and Amazon SNS Overview Amazon SQS (Simple Queue Service) and Amazon SNS (Simple Notification Service) are two messaging services from AWS used to build large-scale distributed systems. Both help ensure reliability and scalability in communication between application components, but they are designed for different purposes. In this article, we will compare these two services to see what they have in common and how they differ.\nContent Similarities Differences Combined applications in complex architectures "
 },
 {
-	"uri": "https://ngxquang.github.io/aws-ws1-sqs-sns/1-similar/1.2-messaging/",
+	"uri": "http://localhost:1313/aws-ws1-sqs-sns/1-similar/1.2-messaging/",
 	"title": "Messaging Services",
 	"tags": [],
 	"description": "",
 	"content": "Amazon Simple Queue Service (SQS) and Amazon Simple Notification Service (SNS) are both messaging services from AWS, used to exchange messages between distributed systems and applications. Although SQS and SNS take different approaches in how they handle and deliver messages, they are designed to ensure consistency, scalability, and offloading when communicating between systems.\n1. Enhanced Scalability Both SQS and SNS allow systems to process messages asynchronously. Systems do not need to wait for each other to complete processing and can continue to operate, reducing congestion. 2. Decoupling Messaging helps decouple system components, allowing systems not to depend directly on each other. With messaging, services can communicate without needing to know what the backend system is doing or how long message processing will take. 3. Ensuring Message Order and Integrity Both SNS and SQS support ensuring message order (especially in the case of SQS FIFO queues) and can communicate with various services and systems without losing consistency. "
 },
 {
-	"uri": "https://ngxquang.github.io/aws-ws1-sqs-sns/1-similar/1.1-serverless/",
+	"uri": "http://localhost:1313/aws-ws1-sqs-sns/1-similar/1.1-serverless/",
 	"title": "Serverless Services",
 	"tags": [],
 	"description": "",
 	"content": "1. No Infrastructure Management Both Amazon SQS and SNS do not require users to manage servers or physical infrastructure. AWS automatically handles provisioning, scaling, and server management, allowing users to focus on application logic rather than maintaining physical resources. 2. Auto-scaling With a serverless architecture, SQS and SNS automatically scale according to workload. As message traffic increases, the system processes it automatically without the need for manual configuration or management. 3. Flexible Cost Structure (Pay-as-you-go) With serverless, users only pay for the resources actually used. In SQS, users only pay for the number of messages sent and received. In SNS, users only pay for the messages sent. This model helps optimize costs as there is no need to maintain resources continuously even when there is no workload. 4. Regional Scope AWS regional scope refers to how AWS services are deployed and managed in specific geographical areas (regions). Each region is a collection of isolated data centers, allowing users to choose where their resources will be deployed to meet performance requirements, regulatory compliance, or data redundancy.\nServerless services such as AWS Lambda, Amazon SQS, Amazon SNS, and DynamoDB are all services that fall under regional scope.\nAWS regional scope is closely related to serverless services because they all require choosing a region for deployment and usage.\n"
 },
 {
-	"uri": "https://ngxquang.github.io/aws-ws1-sqs-sns/1-similar/",
+	"uri": "http://localhost:1313/aws-ws1-sqs-sns/1-similar/",
 	"title": "Similarities",
 	"tags": [],
 	"description": "",
 	"content": "Amazon Simple Queue Service (SQS) and Amazon Simple Notification Service (SNS), despite having different purposes, share important common characteristics. Two prominent similarities between them are serverless and messaging, which enhance scalability and facilitate easy integration into modern systems.\nContent Messaging service Serverless service "
 },
 {
-	"uri": "https://ngxquang.github.io/aws-ws1-sqs-sns/2-difference/2.2-sns/",
+	"uri": "http://localhost:1313/aws-ws1-sqs-sns/2-difference/2.2-sns/",
 	"title": "Amazon SNS",
 	"tags": [],
 	"description": "",
 	"content": "1. Topic and Difference from Queue The difference from SQS:\nSNS does not use a queue like SQS, but instead uses the concept of a Topic. While SQS uses queues to temporarily store messages until they are pulled by consumers, SNS uses topics to manage and distribute messages immediately to subscribers. In SNS, messages are not stored in the topic but are sent directly to subscribers upon receipt.\n2. Publisher and Subscriber Publisher: Publishers play the role of sending messages into a topic. A publisher can be any service or system capable of emitting messages that need to be conveyed to recipients (subscribers).\nSubscriber: Subscribers register to receive messages from a specific topic. A topic can have multiple subscribers, and when a message is published, all subscribers will receive the message simultaneously.\nIn the example illustrated, there is one publisher sending a message to the topic. This topic will broadcast the message to all subscribers at once.\n3. Properties of SNS 3.1 Push Model The Push Model is a significant difference between SNS and SQS. In SNS, instead of consumers having to actively pull messages from a queue, messages are pushed immediately from the topic to all subscribers.\nThis push mechanism greatly enhances the speed of information transmission as messages are distributed instantly, making it suitable for real-time applications.\n3.2 Broadcast The SNS model operates in a broadcast manner: meaning a message from the publisher will be sent to all subscribers registered with the topic. This allows SNS to distribute messages to multiple destinations at once, creating a one-to-many (1-n) message transmission model. 3.3 Non-persistent SNS does not store messages (non-persistent). This means that when a message is sent to a topic, it is immediately distributed to the subscribers, and there is no mechanism for retaining that message in the topic. If no subscribers are registered or if a subscriber fails to receive the message, the message will not be retained for later processing. 3.4 One-to-Many Relationship In the SNS model, a topic can have multiple subscribers. This creates a one-to-many relationship, where a publisher sends a message to a topic, and that message will be distributed to all registered subscribers. This differs from SQS, where each message is typically processed by a single consumer (one-to-one relationship).\nThis difference makes SNS suitable for use cases where messages need to be sent to multiple services or multiple recipients simultaneously.\n"
 },
 {
-	"uri": "https://ngxquang.github.io/aws-ws1-sqs-sns/2-difference/",
+	"uri": "http://localhost:1313/aws-ws1-sqs-sns/2-difference/",
 	"title": "Differences",
 	"tags": [],
 	"description": "",
 	"content": "Amazon SNS (Simple Notification Service) and Amazon SQS (Simple Queue Service) are both messaging services from AWS, but they serve different purposes and architectures.\nWhile SNS operates on a push model to distribute notifications to multiple subscribers through a broadcasting mechanism, SQS uses a pull model to store and process messages through independent queues.\nContent Amazon SQS Amazon SNS "
 },
 {
-	"uri": "https://ngxquang.github.io/aws-ws1-sqs-sns/3-combine/",
+	"uri": "http://localhost:1313/aws-ws1-sqs-sns/3-combine/",
 	"title": "Application in Complex Architectures",
 	"tags": [],
 	"description": "",
 	"content": "A common architecture when applying SQS and SNS is Fanout. The Fanout Architecture aims to enhance scalability and optimize costs.\n1. Fanout Architecture Fanout in system architecture means that a message from a source (SNS topic) will be distributed to multiple destinations (SQS Queues). This means that instead of having a single point of reception and processing, messages can be sent to various locations, allowing different tasks to be processed independently.\nFor example, an SNS topic can receive messages from multiple applications or systems. After receiving a message, it will fan out to different queues for various systems to process them in their own way.\n2. Workflow in Fanout Architecture SNS Topic: This is where messages are received from applications or users. For instance, a system might send a message containing customer information, with a specific data field being book-type. { book-type: \u0026#34;detective\u0026#34; | \u0026#34;romantic\u0026#34; | \u0026#34;horror\u0026#34;, metadata: ... } Illustrated with an image: In the above architecture, suppose publishers A, B, and C send messages structured as shown to SNS. SNS has a filtering mechanism. This filter can filter messages based on specific data fields, such as book-type in this example.\nThanks to this capability, messages will be categorized and sent to the corresponding queues. For instance:\nA message with book-type: \u0026ldquo;detective\u0026rdquo; will be directed to Queue 1. A message with book-type: \u0026ldquo;romantic\u0026rdquo; will be directed to Queue 2. A message with book-type: \u0026ldquo;horror\u0026rdquo; will be directed to Queue 3. Each Queue (Queue 1, Queue 2, Queue 3) will have its own polling server to receive messages and process them according to book type.\nThis means that systems can be optimized and scaled independently based on the workload of each book type:\nFor example, readers who prefer romantic books may require a more powerful processing system with more resources. Readers of detective books, who are fewer in number, can be handled by a less resource-intensive system since their demands are not high. 3. Cost Optimization The Fanout Architecture helps optimize costs by distributing processing tasks based on the characteristics of each type of data, preventing the system from overusing resources to handle everything in a monolithic block.\nInstead of funneling all messages into a single system for processing, tasks can be broken down into smaller parts, with each part handling a specific workload. This allows for scaling each part of the system based on actual demand, rather than needing to scale the entire system all at once.\nFor example, if the number of readers for detective books is larger than for other types, only the processing resources for Queue 1 need to be expanded, without incurring costs for other processing systems.\n"
 },
 {
-	"uri": "https://ngxquang.github.io/aws-ws1-sqs-sns/categories/",
+	"uri": "http://localhost:1313/aws-ws1-sqs-sns/categories/",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://ngxquang.github.io/aws-ws1-sqs-sns/tags/",
+	"uri": "http://localhost:1313/aws-ws1-sqs-sns/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",

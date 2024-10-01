@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Amazon SNS on Amazon SQS và Amazon SNS</title>
-    <link>https://ngxquang.github.io/aws-ws1-sqs-sns/vi/2-difference/2.2-sns/</link>
+    <link>http://localhost:1313/aws-ws1-sqs-sns/vi/2-difference/2.2-sns/</link>
     <description>Recent content in Amazon SNS on Amazon SQS và Amazon SNS</description>
     <generator>Hugo</generator>
     <language>vi</language>
-    <atom:link href="https://ngxquang.github.io/aws-ws1-sqs-sns/vi/2-difference/2.2-sns/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/aws-ws1-sqs-sns/vi/2-difference/2.2-sns/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
