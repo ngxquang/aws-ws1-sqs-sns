@@ -22,7 +22,7 @@ pre : " <b> 2.2 </b> "
 
   - Xét ví dụ trong hình, có 1 publisher gửi message tới topic. Topic này sẽ bắn message tới tất cả các subscriber cùng lúc
 
-  ![sns](https://ngxquang.github.io/aws-ws1-new/images/2.difference/sns.png)
+  ![sns](https://ngxquang.github.io/aws-ws1-sqs-sns/images/2.difference/sns.png)
 
 
 #### 3. Các tính chất của SNS

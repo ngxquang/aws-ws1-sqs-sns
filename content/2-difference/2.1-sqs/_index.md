@@ -13,7 +13,7 @@ pre: " <b> 2.1 </b> "
 
   - In the illustration, suppose we have three producers sending messages m1, m2, and m3 into the Queue. There are three consumers that pull messages within a certain interval. Each pull can be one or multiple messages. Consumer 1 might pull m1 and m2 at the same time, while consumer 2 might pull m3, and so on.
 
-  ![sqs](https://ngxquang.github.io/aws-ws1-new/images/2.difference/sqs.png)
+  ![sqs](https://ngxquang.github.io/aws-ws1-sqs-sns/images/2.difference/sqs.png)
 
 #### 2. SQS Helps Solve Async Problems
   - SQS supports an asynchronous model where producers send messages without needing to wait for consumers to process them immediately, allowing system components to operate independently of each other in terms of time.
@@ -28,7 +28,7 @@ pre: " <b> 2.1 </b> "
 
   - Typically, in asynchronous architectures, messages produced are processed immediately, but in this architecture, the processing is separated → The architecture related to the Queue in general and SQS in particular is referred to as **Decoupling**.
 
-  ![decoupling](https://ngxquang.github.io/aws-ws1-new/images/2.difference/decoupling.jpg)
+  ![decoupling](https://ngxquang.github.io/aws-ws1-sqs-sns/images/2.difference/decoupling.jpg)
 
 ##### 3.2 Types of Queues in SQS
 
@@ -36,7 +36,7 @@ pre: " <b> 2.1 </b> "
 
   - There are two types of queues:
     - FIFO Queue
-  ![fifo](https://ngxquang.github.io/aws-ws1-new/images/2.difference/sqs-fifo.png)
+  ![fifo](https://ngxquang.github.io/aws-ws1-sqs-sns/images/2.difference/sqs-fifo.png)
 
     - Standard Queue
 

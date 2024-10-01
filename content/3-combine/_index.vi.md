@@ -26,7 +26,7 @@ Kiến trúc phổ biến khi áp dụng SQS và SNS là **Fanout**. Fanout Arch
 ```
 
 - Minh họa bằng hình ảnh: 
-  ![fanout](https://ngxquang.github.io/aws-ws1-new/images/3.combine/combine.png)
+  ![fanout](https://ngxquang.github.io/aws-ws1-sqs-sns/images/3.combine/combine.png)
 
 - Trong kiến trúc trên, giả sử các publisher A, B, C gửi message có cấu trúc như trên vào SNS. SNS có 1 cơ chế là filter. Filter này có thể lọc các thông điệp dựa trên các trường dữ liệu cụ thể. Ở ví dụ trên là ```book-type```
 

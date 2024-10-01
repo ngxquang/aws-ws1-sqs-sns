@@ -13,7 +13,7 @@ pre : " <b> 2.1 </b> "
 
   - Trong hình vẽ, giả sử ta có 3 producer gửi các message m1, m2 và m3 vào Queue. Có 3 customer thực hiện vào để lấy message ra trong 1 khoảng interval. Mỗi lần lấy có thể là 1 hoặc nhiều message. Customer 1 có thể lấy m1, m2 cùng lúc, customer 2 có thể lấy m3, ...
 
-  ![sqs](https://ngxquang.github.io/aws-ws1-new/images/2.difference/sqs.png)
+  ![sqs](https://ngxquang.github.io/aws-ws1-sqs-sns/images/2.difference/sqs.png)
 
 #### 2. SQS giúp giải quyết vấn đề Async (bất đồng bộ)
   - SQS hỗ trợ mô hình bất đồng bộ (asynchronous), nơi các producer gửi message mà không cần phải đợi các consumer xử lý chúng ngay lập tức, cho phép các thành phần của hệ thống hoạt động độc lập, không phụ thuộc vào nhau về mặt thời gian. 
@@ -28,7 +28,7 @@ pre : " <b> 2.1 </b> "
 
   - Thông thường trong các kiến trúc Async thì sẽ xử lý phần message được producer đưa vào luôn nhưng đối với kiến trúc này thì tách biệt 2 phần xử lý → Kiến trúc liên quan đến Queue nói chung và SQS nói riêng được gọi là **Decoupling**
 
-  ![decoupling](https://ngxquang.github.io/aws-ws1-new/images/2.difference/decoupling.jpg)
+  ![decoupling](https://ngxquang.github.io/aws-ws1-sqs-sns/images/2.difference/decoupling.jpg)
 
 
 ##### 3.2 Các loại Queue trong SQS
@@ -37,7 +37,7 @@ pre : " <b> 2.1 </b> "
 
   - Có 2 loại Queue:
     - FIFO Queue
-  ![fifo](https://ngxquang.github.io/aws-ws1-new/images/2.difference/sqs-fifo.png)
+  ![fifo](https://ngxquang.github.io/aws-ws1-sqs-sns/images/2.difference/sqs-fifo.png)
 
     - Standard Queue
 

@@ -25,7 +25,7 @@ A common architecture when applying SQS and SNS is **Fanout**. The Fanout Archit
 ```
 
 - Illustrated with an image: 
-  ![fanout](https://ngxquang.github.io/aws-ws1-new/images/3.combine/combine.png)
+  ![fanout](https://ngxquang.github.io/aws-ws1-sqs-sns/images/3.combine/combine.png)
 
 - In the above architecture, suppose publishers A, B, and C send messages structured as shown to SNS. SNS has a filtering mechanism. This filter can filter messages based on specific data fields, such as ```book-type``` in this example.
 

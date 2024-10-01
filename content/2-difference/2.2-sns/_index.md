@@ -21,7 +21,7 @@ pre: " <b> 2.2 </b> "
 
   - In the example illustrated, there is one publisher sending a message to the topic. This topic will broadcast the message to all subscribers at once.
 
-  ![sns](https://ngxquang.github.io/aws-ws1-new/images/2.difference/sns.png)
+  ![sns](https://ngxquang.github.io/aws-ws1-sqs-sns/images/2.difference/sns.png)
 
 #### 3. Properties of SNS
 
