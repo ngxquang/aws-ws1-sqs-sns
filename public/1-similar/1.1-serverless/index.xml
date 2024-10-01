@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Serverless Services on Access RDS Database through Lambda</title>
+    <link>https://bobjohnd69.github.io/WS1-Access-RDS-Through-Lambda/1-similar/1.1-serverless/</link>
+    <description>Recent content in Serverless Services on Access RDS Database through Lambda</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://bobjohnd69.github.io/WS1-Access-RDS-Through-Lambda/1-similar/1.1-serverless/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
