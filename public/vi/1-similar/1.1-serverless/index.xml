@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dịch vụ Serverless on Amazon SQS và Amazon SNS</title>
-    <link>http://localhost:1313/aws-ws1-sqs-sns/vi/1-similar/1.1-serverless/</link>
+    <link>https://ngxquang.github.io/aws-ws1-sqs-sns/vi/1-similar/1.1-serverless/</link>
     <description>Recent content in Dịch vụ Serverless on Amazon SQS và Amazon SNS</description>
     <generator>Hugo</generator>
     <language>vi</language>
-    <atom:link href="http://localhost:1313/aws-ws1-sqs-sns/vi/1-similar/1.1-serverless/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ngxquang.github.io/aws-ws1-sqs-sns/vi/1-similar/1.1-serverless/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,124 +2,124 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/aws-ws1-sqs-sns/vi/2-difference/2.1-sqs/</loc>
+    <loc>https://ngxquang.github.io/aws-ws1-sqs-sns/vi/2-difference/2.1-sqs/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/aws-ws1-sqs-sns/2-difference/2.1-sqs/"
+                href="https://ngxquang.github.io/aws-ws1-sqs-sns/2-difference/2.1-sqs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/aws-ws1-sqs-sns/vi/2-difference/2.1-sqs/"
+                href="https://ngxquang.github.io/aws-ws1-sqs-sns/vi/2-difference/2.1-sqs/"
                 />
   </url><url>
-    <loc>http://localhost:1313/aws-ws1-sqs-sns/vi/</loc>
+    <loc>https://ngxquang.github.io/aws-ws1-sqs-sns/vi/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/aws-ws1-sqs-sns/"
+                href="https://ngxquang.github.io/aws-ws1-sqs-sns/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/aws-ws1-sqs-sns/vi/"
+                href="https://ngxquang.github.io/aws-ws1-sqs-sns/vi/"
                 />
   </url><url>
-    <loc>http://localhost:1313/aws-ws1-sqs-sns/vi/1-similar/1.2-messaging/</loc>
+    <loc>https://ngxquang.github.io/aws-ws1-sqs-sns/vi/1-similar/1.2-messaging/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/aws-ws1-sqs-sns/1-similar/1.2-messaging/"
+                href="https://ngxquang.github.io/aws-ws1-sqs-sns/1-similar/1.2-messaging/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/aws-ws1-sqs-sns/vi/1-similar/1.2-messaging/"
+                href="https://ngxquang.github.io/aws-ws1-sqs-sns/vi/1-similar/1.2-messaging/"
                 />
   </url><url>
-    <loc>http://localhost:1313/aws-ws1-sqs-sns/vi/1-similar/1.1-serverless/</loc>
+    <loc>https://ngxquang.github.io/aws-ws1-sqs-sns/vi/1-similar/1.1-serverless/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/aws-ws1-sqs-sns/1-similar/1.1-serverless/"
+                href="https://ngxquang.github.io/aws-ws1-sqs-sns/1-similar/1.1-serverless/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/aws-ws1-sqs-sns/vi/1-similar/1.1-serverless/"
+                href="https://ngxquang.github.io/aws-ws1-sqs-sns/vi/1-similar/1.1-serverless/"
                 />
   </url><url>
-    <loc>http://localhost:1313/aws-ws1-sqs-sns/vi/1-similar/</loc>
+    <loc>https://ngxquang.github.io/aws-ws1-sqs-sns/vi/1-similar/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/aws-ws1-sqs-sns/1-similar/"
+                href="https://ngxquang.github.io/aws-ws1-sqs-sns/1-similar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/aws-ws1-sqs-sns/vi/1-similar/"
+                href="https://ngxquang.github.io/aws-ws1-sqs-sns/vi/1-similar/"
                 />
   </url><url>
-    <loc>http://localhost:1313/aws-ws1-sqs-sns/vi/2-difference/2.2-sns/</loc>
+    <loc>https://ngxquang.github.io/aws-ws1-sqs-sns/vi/2-difference/2.2-sns/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/aws-ws1-sqs-sns/2-difference/2.2-sns/"
+                href="https://ngxquang.github.io/aws-ws1-sqs-sns/2-difference/2.2-sns/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/aws-ws1-sqs-sns/vi/2-difference/2.2-sns/"
+                href="https://ngxquang.github.io/aws-ws1-sqs-sns/vi/2-difference/2.2-sns/"
                 />
   </url><url>
-    <loc>http://localhost:1313/aws-ws1-sqs-sns/vi/2-difference/</loc>
+    <loc>https://ngxquang.github.io/aws-ws1-sqs-sns/vi/2-difference/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/aws-ws1-sqs-sns/2-difference/"
+                href="https://ngxquang.github.io/aws-ws1-sqs-sns/2-difference/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/aws-ws1-sqs-sns/vi/2-difference/"
+                href="https://ngxquang.github.io/aws-ws1-sqs-sns/vi/2-difference/"
                 />
   </url><url>
-    <loc>http://localhost:1313/aws-ws1-sqs-sns/vi/3-combine/</loc>
+    <loc>https://ngxquang.github.io/aws-ws1-sqs-sns/vi/3-combine/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/aws-ws1-sqs-sns/3-combine/"
+                href="https://ngxquang.github.io/aws-ws1-sqs-sns/3-combine/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/aws-ws1-sqs-sns/vi/3-combine/"
+                href="https://ngxquang.github.io/aws-ws1-sqs-sns/vi/3-combine/"
                 />
   </url><url>
-    <loc>http://localhost:1313/aws-ws1-sqs-sns/vi/categories/</loc>
+    <loc>https://ngxquang.github.io/aws-ws1-sqs-sns/vi/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/aws-ws1-sqs-sns/categories/"
+                href="https://ngxquang.github.io/aws-ws1-sqs-sns/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/aws-ws1-sqs-sns/vi/categories/"
+                href="https://ngxquang.github.io/aws-ws1-sqs-sns/vi/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/aws-ws1-sqs-sns/vi/tags/</loc>
+    <loc>https://ngxquang.github.io/aws-ws1-sqs-sns/vi/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/aws-ws1-sqs-sns/tags/"
+                href="https://ngxquang.github.io/aws-ws1-sqs-sns/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/aws-ws1-sqs-sns/vi/tags/"
+                href="https://ngxquang.github.io/aws-ws1-sqs-sns/vi/tags/"
                 />
   </url>
 </urlset>

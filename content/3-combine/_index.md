@@ -16,7 +16,7 @@ A common architecture when applying SQS and SNS is **Fanout**. The Fanout Archit
 
 #### 2. Workflow in Fanout Architecture
 
-- SNS Topic: This is where messages are received from applications or users. For instance, a system might send a message containing customer information, with a specific data field being ```book-type```.
+- SNS Topic: This is where messages are received from applications or users. For instance, a system might send a message containing book type information, with a specific data field being ```book-type```.
 
 ```
 { 

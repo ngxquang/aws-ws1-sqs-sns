@@ -16,7 +16,7 @@ Kiến trúc phổ biến khi áp dụng SQS và SNS là **Fanout**. Fanout Arch
 
 #### 2. Luồng hoạt động trong Fanout Architecture
 
-- SNS Topic: Đây là nơi nhận thông điệp từ các ứng dụng hoặc người dùng. Ví dụ: một hệ thống có thể gửi thông điệp với nội dung là thông tin khách hàng, trong đó có một trường dữ liệu đặc biệt là ```book-type```
+- SNS Topic: Đây là nơi nhận thông điệp từ các ứng dụng hoặc người dùng. Ví dụ: một hệ thống có thể gửi thông điệp với nội dung là thông tin loại sách, trong đó có một trường dữ liệu đặc biệt là ```book-type```
 
 ```
 {
